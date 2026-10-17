@@ -16,6 +16,14 @@ class Brainstorm {
     var summary: String
     var keywords: String
     
+//    init(brainstormText: String, date: Date = .now) {
+//        self.brainstormText = brainstormText
+//        self.date = date
+//        summary = ""
+//        keywords = ""
+//    
+//    }
+    
     init(brainstormText: String, date: Date = .now, category: Category) {
         self.brainstormText = brainstormText
         self.date = date

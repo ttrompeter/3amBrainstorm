@@ -19,34 +19,34 @@ enum Category: String, Codable, CaseIterable {
     var systemImage: String {
         switch self {
         case .coding:
-            "apps.ipad"
+            "ipad.landscape.and.iphone"
         case .financial:
-            "dollarsign"
+            "dollarsign.square.fill"
         case .legal:
             "building.classical.columns.fill"
         case .misc:
-            "folder"
+            "folder.fill"
         case .oca:
-            "house.lodge"
+            "house.fill"
         case .personal:
-            "person"
+            "person.fill"
         }
     }
     
     var color: Color {
         switch self {
         case .coding:
-                .orange
+                .umbrown
         case .financial:
-                .green
+                .umblue
         case .legal:
-                .blue
+                .umtan
         case .misc:
-                .teal
+                .umpuke
         case .oca:
-                .mint
+                .umgray
         case .personal:
-                .indigo
+                .umyellow
         }
     }
 }
