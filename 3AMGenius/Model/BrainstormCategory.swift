@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum Category: String, Codable, CaseIterable {
+enum BrainstormCategory: String, Codable, CaseIterable {
     case coding = "Coding"
     case financial = "Financial"
     case legal = "Legal"
