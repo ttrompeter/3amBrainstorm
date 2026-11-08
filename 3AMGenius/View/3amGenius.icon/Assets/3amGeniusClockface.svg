@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="980px" height="980px" viewBox="0 0 980 980" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>json-16-svgrepo-com</title>
+    <g id="json-16-svgrepo-com" stroke="none" fill="none">
+        <ellipse id="timedot" fill="color(display-p3 0.000 0.314 0.188)" fill-rule="evenodd" cx="490.310378" cy="872.796547" rx="27.9680365" ry="27.0718232"></ellipse>
+        <ellipse id="timedot" fill="color(display-p3 0.000 0.314 0.188)" fill-rule="evenodd" cx="108.322734" cy="489.712017" rx="27.9680365" ry="27.0718232"></ellipse>
+        <ellipse id="timedot" fill="color(display-p3 0.000 0.314 0.188)" fill-rule="evenodd" cx="872.325614" cy="491.138398" rx="27.9680365" ry="27.0718232"></ellipse>
+        <circle id="timedot" fill="color(display-p3 0.000 0.314 0.188)" fill-rule="evenodd" cx="490.15" cy="107.68125" r="25"></circle>
+        <circle id="frame" stroke="color(display-p3 0.000 0.314 0.188)" stroke-width="40" cx="490" cy="490" r="435"></circle>
+    </g>
+</svg>

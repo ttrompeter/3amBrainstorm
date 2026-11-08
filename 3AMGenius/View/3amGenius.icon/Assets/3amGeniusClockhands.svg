@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="980px" height="980px" viewBox="0 0 980 980" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>json-16-svgrepo-com</title>
+    <g id="json-16-svgrepo-com" stroke="none" fill="none" fill-rule="evenodd">
+        <line x1="490" y1="250" x2="490" y2="490" id="littlehand" stroke="color(display-p3 0.000 0.314 0.188)" stroke-width="40" fill="color(display-p3 0.000 0.314 0.188)" stroke-linecap="square"></line>
+        <polygon id="Triangle" fill="color(display-p3 0.000 0.314 0.188)" opacity="0.98" points="489.977559 170.277486 538.481496 229.835497 441.473622 229.835497"></polygon>
+        <line x1="727" y1="489" x2="490" y2="490" id="bighand" stroke="color(display-p3 0.000 0.314 0.188)" stroke-width="40" fill="color(display-p3 0.000 0.314 0.188)" stroke-linecap="square"></line>
+        <polygon id="Triangle" fill="color(display-p3 0.000 0.314 0.188)" opacity="0.98" transform="translate(785.1289, 488.62) rotate(90) translate(-785.1289, -488.62)" points="785.128937 450.037295 832.775346 527.20265 737.482528 527.20265"></polygon>
+    </g>
+</svg>
