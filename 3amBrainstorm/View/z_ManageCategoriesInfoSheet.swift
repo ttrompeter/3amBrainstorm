@@ -1,5 +1,5 @@
 //
-//  SettingsInformationSheet.swift
+//  ManageCategoriesInfoSheet.swift
 //  3amBrainstorm
 //
 //  Created by Thomas Trompeter on 11/9/26.
@@ -7,20 +7,20 @@
 
 import SwiftUI
 
-struct SettingsInformationSheet: View {
+struct z_ManageCategoriesInfoSheet: View {
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack {
-                    Text("Settings")
+                    Text("Manage Categories")
                         .font(.title)
                     Text("Information Sheet")
                         .padding(.bottom, 10)
                         .font(.title)
                     VStack (alignment: .leading, spacing: 10) {
-                        Text("There are many actions you can take to manage the app. You can .")
+                        Text("There are 2 actions you can take to manage Categories. You can:")
                         HStack (alignment: .top) {
                             Text("•")
                             Text("Delete a Category.")
@@ -31,8 +31,8 @@ struct SettingsInformationSheet: View {
                         }
                         
                         Text("At the top you can tap on the name of the area grouping - Priority • Date • Category - that you want to see.")
-                        Text("Each Brainstorm's summary is shown in a green rounded rectangle. In the Priority area grouping the category is shown to the left of the summary and the date is shown as the end of the summary. In the Date area grouping the category and priority are shown to the left of the summary. In the Category area grouping the priority is shown to the left of the summary and the date is shown as the end of the summary")
-                        Text("To see the details of a Brainstorm tap on it and it will show the full information of that Brainstorm.")
+//                        Text("Each Brainstorm's summary is shown in a green rounded rectangle. In the Priority area grouping the category is shown to the left of the summary and the date is shown as the end of the summary. In the Date area grouping the category and priority are shown to the left of the summary. In the Category area grouping the priority is shown to the left of the summary and the date is shown as the end of the summary")
+//                        Text("To see the details of a Brainstorm tap on it and it will show the full information of that Brainstorm.")
                     }
                 }
                 .padding()
@@ -50,10 +50,9 @@ struct SettingsInformationSheet: View {
                 }
             }
         }
-
     }
 }
 
 #Preview {
-    SettingsInformationSheet()
+    z_ManageCategoriesInfoSheet()
 }

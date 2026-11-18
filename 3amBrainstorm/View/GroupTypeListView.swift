@@ -1,18 +1,18 @@
 //
-//  ArchivedListView.swift
+//  GroupTypeListView.swift
 //  3amBrainstorm
 //
-//  Created by Thomas Trompeter on 11/11/26.
+//  Created by Thomas Trompeter on 11/16/26.
 //
 
 import SwiftUI
 
-struct ArchivedListView: View {
+struct GroupTypeListView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    ArchivedListView()
+    GroupTypeListView()
 }

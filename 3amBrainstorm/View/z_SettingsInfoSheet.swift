@@ -1,5 +1,5 @@
 //
-//  ManageCategoriesInformationSheet.swift
+//  SettingsInformationSheet.swift
 //  3amBrainstorm
 //
 //  Created by Thomas Trompeter on 11/9/26.
@@ -7,32 +7,37 @@
 
 import SwiftUI
 
-struct ManageCategoriesInformationSheet: View {
+struct z_SettingsInformationSheet: View {
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack {
-                    Text("Manage Categories")
+                    Text("3amBrainstorm Settings")
                         .font(.title)
                     Text("Information Sheet")
                         .padding(.bottom, 10)
                         .font(.title)
                     VStack (alignment: .leading, spacing: 10) {
-                        Text("There are 2 actions you can take to manage Categories. You can:")
+                        Text("There are many actions you can take to manage the app. You can:")
                         HStack (alignment: .top) {
                             Text("•")
-                            Text("Delete a Category.")
+                            Text("Set the Default Priority.")
                         }
                         HStack (alignment: .top) {
                             Text("•")
-                            Text("Add a new Category.")
+                            Text("Set the Default Category.")
                         }
-                        
-                        Text("At the top you can tap on the name of the area grouping - Priority • Date • Category - that you want to see.")
-//                        Text("Each Brainstorm's summary is shown in a green rounded rectangle. In the Priority area grouping the category is shown to the left of the summary and the date is shown as the end of the summary. In the Date area grouping the category and priority are shown to the left of the summary. In the Category area grouping the priority is shown to the left of the summary and the date is shown as the end of the summary")
-//                        Text("To see the details of a Brainstorm tap on it and it will show the full information of that Brainstorm.")
+                        HStack (alignment: .top) {
+                            Text("•")
+                            Text("Set the Archive Months.")
+                        }
+                        HStack (alignment: .top) {
+                            Text("•")
+                            Text("Set the Deletion Months.")
+                        }
+                        Text("In each section there is an information button (\(Image(systemName: "info.circle.fill"))) that explains how to adjust the setting or take other available actions. Click on the appropriate (\(Image(systemName: "info.circle.fill"))) to see the detailed information.")
                     }
                 }
                 .padding()
@@ -50,9 +55,10 @@ struct ManageCategoriesInformationSheet: View {
                 }
             }
         }
+
     }
 }
 
 #Preview {
-    ManageCategoriesInformationSheet()
+    z_SettingsInformationSheet()
 }
