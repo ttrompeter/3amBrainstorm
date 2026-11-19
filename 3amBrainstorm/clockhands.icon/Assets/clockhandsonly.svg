@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="980px" height="980px" viewBox="0 0 980 980" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>json-16-svgrepo-com</title>
+    <g id="json-16-svgrepo-com" stroke="none" fill="none">
+        <line x1="490" y1="314" x2="490" y2="490" id="littlehand" stroke="color(display-p3 0.000 0.314 0.188)" stroke-width="40" fill="color(display-p3 0.000 0.314 0.188)" fill-rule="evenodd" stroke-linecap="square"></line>
+        <polygon id="Triangle" fill="color(display-p3 0.000 0.314 0.188)" fill-rule="evenodd" opacity="0.98" points="490.473622 166.277486 564.473622 294.277486 416.473622 294.277486"></polygon>
+        <line x1="601" y1="491" x2="490" y2="490" id="bighand" stroke="color(display-p3 0.000 0.314 0.188)" stroke-width="40" fill="color(display-p3 0.000 0.314 0.188)" fill-rule="evenodd" stroke-linecap="square"></line>
+        <ellipse id="timedot" fill="color(display-p3 0.000 0.314 0.188)" fill-rule="evenodd" cx="490.310378" cy="872.796547" rx="27.9680365" ry="27.0718232"></ellipse>
+        <ellipse id="timedot" fill="color(display-p3 0.000 0.314 0.188)" fill-rule="evenodd" cx="108.322734" cy="489.712017" rx="27.9680365" ry="27.0718232"></ellipse>
+        <polygon id="Triangle" fill="color(display-p3 0.000 0.314 0.188)" fill-rule="evenodd" opacity="0.98" transform="translate(684.5463, 490.9736) rotate(90) translate(-684.5463, -490.9736)" points="684.54626 426.973564 758.54626 554.973564 610.54626 554.973564"></polygon>
+        <ellipse id="timedot" fill="color(display-p3 0.000 0.314 0.188)" fill-rule="evenodd" cx="872.325614" cy="491.138398" rx="27.9680365" ry="27.0718232"></ellipse>
+        <circle id="timedot" fill="color(display-p3 0.000 0.314 0.188)" fill-rule="evenodd" cx="490.15" cy="107.68125" r="25"></circle>
+        <circle id="frame" stroke="color(display-p3 0.000 0.314 0.188)" stroke-width="40" cx="490" cy="490" r="435"></circle>
+    </g>
+</svg>
